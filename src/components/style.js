@@ -85,7 +85,7 @@ export const styles = StyleSheet.create({
     color: "#2e3e4b",
     marginTop: windowWidth * 0.01,
   },
-  cadastroAlgumacoisa: {
+  cadastroArea: {
     fontSize: 16,
     marginLeft: 10,
     marginBottom: 8,
@@ -117,10 +117,10 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
 
-inputContainer:{
+  inputContainer: {
     flexDirection: 'row',
-    alignItems:'center',
- },
+    alignItems: 'center',
+  },
   Senha: {
     fontSize: 16,
     fontWeight: "500",
@@ -134,41 +134,33 @@ inputContainer:{
     fontSize: 16,
     backgroundColor: "#ebecee",
     height: windowWidth * 0.17,
-    width:'100%'
+    width: '100%'
   },
 
-cadastroBtns: {
-  alignItems: 'center',
-  justifyContent: "space-between", 
-  marginTop: 30,
-  paddingHorizontal: 20,
-  width: windowWidth,     
-},
+  cadastroBtns: {
+    alignItems: 'center',
+    justifyContent: "space-between",
+    marginTop: 30,
+    paddingHorizontal: 20,
+    width: windowWidth,
+  },
 
-cadastroBtn: {
-  width: '100%',                 
-  paddingVertical: 12,
-  borderRadius: 8,
-  alignItems: 'center',         
-  backgroundColor: "#13b666",
-  height: windowWidth*0.16,
-  justifyContent: 'center'
-},
-olho: {
-  marginRight:25,
-  position:'absolute',
-  top:'-20%',
-  right:'20%',
-  width: 24,
-  height: 24,
-  tintColor: '#555',
-},
-cadastroBtnText: {
-  textAlign:'center',
-  color: "#fff",
-  fontWeight: "bold",
-  fontSize: 16,
-},
+  cadastroBtn: {
+    width: '100%',
+    paddingVertical: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+    backgroundColor: "#13b666",
+    height: windowWidth * 0.16,
+    justifyContent: 'center'
+  },
+
+  cadastroBtnText: {
+    textAlign: 'center',
+    color: "#fff",
+    fontWeight: "bold",
+    fontSize: 16,
+  },
 
   ou: {
     flexDirection: "row",
@@ -210,52 +202,50 @@ cadastroBtnText: {
     justifyContent: "center",
   },
 
-
-  
-acessoBtns: {
-  flexDirection: 'row',
-  alignItems: 'center',
-  justifyContent: "space-evenly", 
-  marginTop: 30,
-  width: windowWidth,     
-},
-
-acessoBtn: {
-  width: '40%',
-  borderRadius: 8,
-  alignItems: 'center',         
-  backgroundColor: "#13b666",
-  height: windowWidth*0.16,
-  justifyContent: 'center'
-},
-
-acessoBtnText: {
-  textAlign:'center',
-  color: "#fff",
-  fontWeight: "bold",
-  fontSize: 16,
-},
-acessoBtn2:{
-  width: '40%',
-  borderWidth:1,
-  borderRadius: 8,
-  alignItems: 'center',         
-  borderColor: "#13b666",
-  height: windowWidth*0.16,
-  justifyContent: 'center'
-},
-acessoBtnText2: {
-  textAlign:'center',
-  color: "#32404d",
-  fontSize: 16,
-},
-Checkbox:{
-    padding:10,
-    marginLeft:windowWidth*0.1,
-    marginTop:windowWidth*0.1,
+  acessoBtns: {
     flexDirection: 'row',
-},
-checkboxTxt:{
-    marginLeft:windowWidth*0.06,
-}
+    alignItems: 'center',
+    justifyContent: "space-evenly",
+    marginTop: 30,
+    width: windowWidth,
+  },
+
+  acessoBtn: {
+    width: '40%',
+    borderRadius: 8,
+    alignItems: 'center',
+    backgroundColor: "#13b666",
+    height: windowWidth * 0.16,
+    justifyContent: 'center'
+  },
+
+  acessoBtnText: {
+    textAlign: 'center',
+    color: "#fff",
+    fontWeight: "bold",
+    fontSize: 16,
+  },
+  acessoBtn2: {
+    width: '40%',
+    borderWidth: 1,
+    borderRadius: 8,
+    alignItems: 'center',
+    borderColor: "#13b666",
+    height: windowWidth * 0.16,
+    justifyContent: 'center'
+  },
+  acessoBtnText2: {
+    textAlign: 'center',
+    color: "#32404d",
+    fontSize: 16,
+  },
+  Checkbox: {
+    padding: 10,
+    marginLeft: windowWidth * 0.1,
+    marginTop: windowWidth * 0.1,
+    flexDirection: 'row',
+  },
+  checkboxTxt: {
+    marginLeft: windowWidth * 0.06,
+  }
 });

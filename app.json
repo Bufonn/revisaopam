@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "revisaopam",
-    "slug": "revisaopam",
+    "name": "Review",
+    "slug": "Review",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

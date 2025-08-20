@@ -1,8 +1,8 @@
-import LoginScreen from "./src/screens/LoginScreen"
+import LoginScreen from "./src/components/LoginScreen"
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import CadastroScreen from "./src/screens/CadastroScreen";
-import AcessoScreen from "./src/screens/AcessoScreen";
+import RegisterScreen from "./src/components/RegisterScreen";
+import Screen from "./src/components/Screen";
 
   const Stack = createNativeStackNavigator();
 
@@ -13,8 +13,8 @@ import AcessoScreen from "./src/screens/AcessoScreen";
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login">
        <Stack.Screen name="Login" component={LoginScreen}/>
-       <Stack.Screen name="Cadastro" component={CadastroScreen} />
-       <Stack.Screen name="Acesso" component={AcessoScreen}/>
+       <Stack.Screen name="Cadastro" component={RegisterScreen} />
+       <Stack.Screen name="Acesso" component={Screen}/>
       </Stack.Navigator>
     </NavigationContainer>
   )
